@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { TodoTypes } from "../types";
-import { log } from "console";
-import { Input } from "postcss";
 import { useTodos } from "../hooks/useTodos";
 import { API_URL } from "@/constants/url";
 
